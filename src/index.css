@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 340 20% 15%;
+
+    --card: 340 30% 98%;
+    --card-foreground: 340 20% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 340 20% 15%;
+
+    --primary: 340 65% 47%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 340 30% 95%;
+    --secondary-foreground: 340 20% 25%;
+
+    --muted: 340 20% 96%;
+    --muted-foreground: 340 10% 50%;
+
+    --accent: 35 60% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 340 20% 90%;
+    --input: 340 20% 90%;
+    --ring: 340 65% 47%;
+
+    --radius: 0.5rem;
+
+    --rose-light: 340 40% 96%;
+    --rose-medium: 340 50% 90%;
+    --gold: 35 60% 50%;
+    --gold-light: 35 50% 92%;
+
+    --font-display: 'Playfair Display', serif;
+    --font-body: 'Poppins', sans-serif;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+  .font-body {
+    font-family: var(--font-body);
+  }
+}
