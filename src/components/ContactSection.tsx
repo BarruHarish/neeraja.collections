@@ -19,7 +19,11 @@ const ContactSection = () => {
           <div className="grid sm:grid-cols-3 gap-6 mb-10">
             <div className="flex flex-col items-center p-4">
               <Phone className="h-6 w-6 text-primary mb-3" />
+<<<<<<< HEAD
               <p className="font-body text-sm font-medium text-foreground">+91 95054 21343</p>
+=======
+              <p className="font-body text-sm font-medium text-foreground">+91 98765 43210</p>
+>>>>>>> f825538e180e43f6e91254ed2af4ea4b9d7fe74b
             </div>
             <div className="flex flex-col items-center p-4">
               <MessageCircle className="h-6 w-6 text-primary mb-3" />

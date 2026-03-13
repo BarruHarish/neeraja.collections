@@ -2,7 +2,11 @@ import { Heart, Truck, Shield } from 'lucide-react';
 
 const features = [
   { icon: Heart, title: 'Handpicked Collection', desc: 'Every piece is carefully curated for quality and style.' },
+<<<<<<< HEAD
   { icon: Truck, title: 'All India Delivery', desc: 'We deliver across India with safe and secure packaging.' },
+=======
+  { icon: Truck, title: 'Pan India Delivery', desc: 'We deliver across India with safe and secure packaging.' },
+>>>>>>> f825538e180e43f6e91254ed2af4ea4b9d7fe74b
   { icon: Shield, title: 'Quality Assured', desc: '100% authentic products with easy returns.' },
 ];
 

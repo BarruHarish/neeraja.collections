@@ -1,10 +1,17 @@
 import { useState } from 'react';
+<<<<<<< HEAD
 import { useProducts } from '@/context/ProductContext';
 import { categories, type Category } from '@/data/products';
 import ProductCard from './ProductCard';
 
 const ProductSection = () => {
   const { products } = useProducts();
+=======
+import { products, categories, type Category } from '@/data/products';
+import ProductCard from './ProductCard';
+
+const ProductSection = () => {
+>>>>>>> f825538e180e43f6e91254ed2af4ea4b9d7fe74b
   const [activeCategory, setActiveCategory] = useState<Category | 'All'>('All');
 
   const filtered = activeCategory === 'All' ? products : products.filter(p => p.category === activeCategory);

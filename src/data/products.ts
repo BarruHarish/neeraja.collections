@@ -9,7 +9,11 @@ export interface Product {
   description?: string;
 }
 
+<<<<<<< HEAD
 export const WHATSAPP_NUMBER = '919505421343'; // Replace with actual number
+=======
+export const WHATSAPP_NUMBER = '919876543210'; // Replace with actual number
+>>>>>>> f825538e180e43f6e91254ed2af4ea4b9d7fe74b
 
 export const categories: Category[] = ['Sarees', 'Jewellery', 'Bangles', 'Handbags', 'Accessories'];
 
